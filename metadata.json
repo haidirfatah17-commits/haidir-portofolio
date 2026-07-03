@@ -1,0 +1,8 @@
+{
+  "name": "Creative Designer Portfolio",
+  "description": "Premium dark-themed glassmorphism portfolio for a creative graphic designer featuring modern brand identities, album art, packaging design, and visual posters.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

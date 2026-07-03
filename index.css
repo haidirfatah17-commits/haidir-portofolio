@@ -1,0 +1,79 @@
+/* Custom scrollbars for a premium dark feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #07050e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(168, 85, 247, 0.25);
+  border-radius: 9999px;
+  border: 2px solid #07050e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(168, 85, 247, 0.5);
+}
+
+/* Custom smooth scrolling animation behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Elegant glowing highlights */
+.shadow-glow-cyan {
+  box-shadow: 0 0 15px rgba(34, 211, 238, 0.2);
+}
+
+.shadow-glow-purple {
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.2);
+}
+
+.shadow-glow-blue {
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.2);
+}
+
+/* Glassmorphism custom classes */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Selection aesthetics */
+::selection {
+  background: rgba(147, 51, 234, 0.5);
+  color: #ffffff;
+}
+
+/* Stagger animations support */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 15s linear infinite;
+}
